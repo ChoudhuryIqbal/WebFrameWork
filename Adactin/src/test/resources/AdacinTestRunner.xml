@@ -1,0 +1,14 @@
+
+
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+
+<suite name="Adactin App running on Firefox"  >
+    <parameter name="url" value="http://www.adactin.com/HotelApp/"/>
+
+    <test name="Log in test">
+        <classes>
+            <class name="Login.HotelAppLogin"/>
+
+        </classes>
+    </test>
+</suite>

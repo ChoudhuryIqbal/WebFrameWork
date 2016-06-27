@@ -1,0 +1,14 @@
+
+
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+
+<suite name="Cnn App running on Firefox"  >
+    <parameter name="url" value="http://www.cnn.com/"/>
+
+    <test name="Search News">
+        <classes>
+            <class name="news.Search"/>
+
+        </classes>
+    </test>
+</suite>
